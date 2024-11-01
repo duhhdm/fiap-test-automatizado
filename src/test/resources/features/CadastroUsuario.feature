@@ -27,7 +27,7 @@
         | role          | ADMIN              |
       Quando eu enviar a requisição para o endpoint "/auth/register" de cadastro de usuario
       Entao o status code da resposta deve ser 400
-      E a resposta deve receber o campo email com a mensagem "deve ser um endereço de e-mail bem formado"
+      E a resposta deve receber o campo email com a mensagem "must be a well-formed email address"
 
 
 

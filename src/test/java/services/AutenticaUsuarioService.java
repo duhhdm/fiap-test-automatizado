@@ -12,7 +12,7 @@ public class AutenticaUsuarioService {
     private LoginModel loginModel = new LoginModel();
     public final Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
     public Response response;
-    String baseUrl = "http://localhost:8080";
+    String baseUrl = "https://web-port-ed-ehhhbcg3abd0c2bg.canadacentral-01.azurewebsites.net";
 
     public void setLoginModel(String campo, String value){
         switch (campo) {

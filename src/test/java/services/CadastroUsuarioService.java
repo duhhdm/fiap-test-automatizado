@@ -26,7 +26,7 @@ public class CadastroUsuarioService {
     final UsuarioModel usuarioModel = new UsuarioModel();
     public final Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
     public Response response;
-    String baseUrl = "http://localhost:8080";
+    String baseUrl = "https://web-port-ed-ehhhbcg3abd0c2bg.canadacentral-01.azurewebsites.net";
 
     String schemasPath = "src/test/resources/schemas/";
     public JSONObject jsonSchema;
